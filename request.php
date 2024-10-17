@@ -1,7 +1,7 @@
 <?php 
 
-	$nome = $_POST['login'];
-	$senha = $_POST['senha'];
+	$nome = $_REQUEST['login'];
+	$senha = $_REQUEST['senha'];
 
 	if ($nome == 'etecia' && $senha == 'etecia') {
 		echo "Bem-vindo ao sistema!";
