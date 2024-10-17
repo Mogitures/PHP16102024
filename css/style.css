@@ -5,5 +5,9 @@ body {
 
 }
 .card{
-	width:18rem;
+	width:20rem;
+}
+
+#title1{
+	padding: 20px;
 }

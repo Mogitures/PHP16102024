@@ -13,23 +13,33 @@
 		<div class="card-body">
 			<form action="request.php" method="post" id="form1">
 
-				<h2 class="card-title">Form</h2>
+				<h2 class="card-title" id="title1">Entrar na conta</h2>
 
 				<label for="login">Login:</label>
-				<input type="text" name="login" id="login" autocomplete="off" required autofocus maxlength="50">
+				<input type="text" name="login" id="login" autocomplete="off" required autofocus maxlength="20">
 				<br><br>
 				<label for="senha">Senha:</label>
-				<input type="password" name="senha" id="senha" autocomplete="off" required maxlength="20">
+				<input type="password" name="senha" id="senha" autocomplete="off" required maxlength="12">
 				<br><br>
-				<input type="submit" name="enviar" value="Enviar" class="btn btn-light">
-				<input type="reset" name="limpar" value="Limpar" class="btn btn-light">
+				<input type="submit" name="enviar" value="Enviar" class="btn btn-dark">
+				<input type="reset" name="limpar" value="Limpar" class="btn btn-dark">
 				
 			</form>
+
+			<a href="<?php  ?>">Esqueci a senha</a>
+
 		</div>
 	</div>
 
 
+	<!--
 
+	Material:
+
+	https://getbootstrap.com/docs/4.6/getting-started/introduction/
+	Versão 4.6
+
+	-->
 
 
 
